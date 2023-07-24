@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+.bg-home {
+  filter: brightness(1.1) opacity(0.9);
+}
+.banner-title {
+  font-family: "Sriracha", cursive;
+  color: #3a2313;
+  /* text-shadow: 3px 3px 0px white; */
+}
+.image-rice {
+  filter: opacity(0.75);
+  /* transform: scaleX(-1); */
+}
+.image-silk {
+  filter: opacity(0.75);
+}
+.image-product {
+  filter: opacity(0.7);
+}
+
+.image-travel {
+  filter: opacity(0.9);
+}
+.image-gover {
+  transform: scaleX(-1);
+  filter: opacity(0.8);
+}
+
+.title-rice {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  color: #3a2313;
+}
+
+.title-rice h1 {
+  font-size: 72px;
+  animation: pulse 2s;
+}
+.title-rice h5 {
+  font-size: 38px;
+  padding-left: 10rem;
+  animation: pulse 2s;
+}
+
+.title-rice h6 {
+  font-size: 20px;
+  padding-left: 3rem;
+  animation: pulse 3s;
+}
+
+.title-home {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  color: #3a2313;
+}
+
+.title-home h1 {
+  font-size: 72px;
+  animation: pulse 2s;
+}
+.title-home h6 {
+  font-size: 24px;
+  padding-left: 3rem;
+  animation: pulse 3s;
+}
+
+@media only screen and (max-width: 554px) {
+  .title-rice {
+    right: 8%;
+    top: 22%;
+  }
+  .title-rice h1 {
+    font-size: 44px;
+  }
+  .title-rice h5 {
+    font-size: 26px;
+    padding-left: 6rem;
+  }
+  .title-home {
+    right: 10%;
+    top: 30%;
+  }
+  .title-home h1 {
+    font-size: 28px;
+  }
+  .title-home h6 {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1342px) and (min-width: 555px) {
+  .title-home {
+    top: 23%;
+  }
+  .title-home h1 {
+    font-size: 50px;
+  }
+  .title-home h6 {
+    font-size: 17px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: translate(0, 150px);
+    transform: translate(0, 150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.line {
+  border-top: 3px solid #ff9746;
+  margin: 0.5rem 0;
+}
+.line-travel {
+  border-bottom: 3px solid #ff9746;
+  margin: 0.5rem 0;
+}
+.card-new {
+  box-shadow: 15px 15px 0 -5px #ff9746;
+  transition: 0.3s;
+  height: 240px;
+  padding: 1.5rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 2px solid #cdc6c1;
+}
+.card-new img {
+  object-fit: cover;
+}
+.card-new .title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-new:hover {
+  box-shadow: 0px 0px 20px 0px rgb(129 83 8 / 58%);
+  /* transform: perspective(999px) rotateX(7deg) translate3d(0px, -4px, 5px); */
+}
+
+.card-link:hover {
+  color: #fe5e00;
+}
+
+.sec-title {
+  position: relative;
+}
+.sec-title h2:after {
+  border-bottom: 5px solid #f57f17;
+  content: "";
+  display: block;
+  left: 25%;
+  bottom: -11%;
+  position: absolute;
+  width: 50%;
+}
+
+.model-animetion {
+  animation: pulse-home 2s infinite;
+}
+
+@keyframes pulse-home {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 1.5rem;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
