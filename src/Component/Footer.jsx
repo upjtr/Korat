@@ -15,16 +15,16 @@ export default function Footer() {
       style={{ borderTop: "4px solid #ff9746" }}
     >
       <Row style={{ width: "100%", padding: "2rem", paddingBottom: "1rem" }}>
-        <Col xs={6} xl={3}>
+        <Col xs={6} xl={2}>
           <Row>
             <Col sm={12} style={{ textAlign: "left" }}>
               <h6 className="text-2xl">Made by</h6>
             </Col>
             <Col sm={12}>
               <div className="flex pl-[1rem]">
-                <img src={logo_footer} className="w-[90px] h-[90px] mr-2" />
-                <img src={Tech} className="w-[90px] h-[90px] mr-2" />
-                <img src={D2p} className="w-[90px] h-[90px]" />
+                {/* <img src={logo_footer} className="w-[90px] h-[90px] mr-2" /> */}
+                <img src={Tech} className="w-[130px] h-[130px] ml-2" />
+                {/* <img src={D2p} className="w-[90px] h-[90px]" /> */}
               </div>
             </Col>
           </Row>
@@ -45,7 +45,7 @@ export default function Footer() {
             </Col>
           </Row>
         </Col>
-        <Col xs={12} xl={6}>
+        <Col xs={12} xl={7}>
           <Row>
             <Col sm={12} style={{ textAlign: "left" }}>
               <h6 className="text-2xl">ติดต่อ </h6>
